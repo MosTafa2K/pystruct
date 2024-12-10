@@ -1,0 +1,24 @@
+app:
+  api:
+    v1:
+      endpoints:
+        auth.py: "# Authentication endpoints"
+        users.py: "# User endpoints"
+      __init__.py: "# API v1 init"
+  core:
+    config.py: "# Configuration file"
+    security.py: "# Security functions"
+  db:
+    base.py: "# Base DB setup"
+    session.py: "# Session setup"
+    models:
+      user.py: "# User model"
+  schemas:
+    user.py: "# User schema"
+  main.py: "# Main application entry point"
+tests:
+  __init__.py: "# Tests init"
+  test_users.py: "# Tests for user endpoints"
+  test_auth.py: "# Tests for auth endpoints"
+requirements.txt: "# List your dependencies here"
+README.md: "# Project documentation"
